@@ -1,0 +1,40 @@
+.App-head {
+  width: 100vw;
+  height: 7rem;
+  background: black;
+  color: white;
+  padding-top: 10px;
+}
+.App-head > h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.ser > input {
+  text-align: center;
+  border-radius: 10px;
+}
+.ser > button {
+  border-radius: 10px;
+  margin-left: 10px;
+  background-color: white;
+  color: darkblue;
+  padding: 5px 10px;
+}
+.container-fluid {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #5c8bd1, #5cd163);
+}
+.temp-pic > #name {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.ser {
+  text-align: center;
+}
